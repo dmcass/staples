@@ -1,0 +1,29 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "editor.rulers": [120],
+    "editor.showUnused": true,
+    "editor.tabSize": 4,
+    "eslint.quiet": false,
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "files.associations": {
+        ".huskyrc": "jsonc",
+        ".lintstagedrc": "jsonc"
+    },
+    "files.exclude": {
+        "**/coverage": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.tmp": true,
+        "**/dist": true,
+        "**/node_modules": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    }
+}

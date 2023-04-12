@@ -1,0 +1,39 @@
+{
+    "arrowParens": "always",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "editorconfig": true,
+    "embeddedLanguageFormatting": "auto",
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxSingleQuote": false,
+    "printWidth": 120,
+    "proseWrap": "preserve",
+    "quoteProps": "consistent",
+    "requirePragma": false,
+    "semi": true,
+    "singleAttributePerLine": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "vueIndentScriptAndStyle": false,
+    "overrides": [
+        {
+            "files": ".{prettierrc,lintstagedrc,huskyrc}",
+            "options": {
+                "parser": "json5",
+                "singleQuote": false,
+                "quoteProps": "preserve",
+                "trailingComma": "none"
+            }
+        },
+        {
+            "files": "*.{md,markdown,yml,yaml}",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

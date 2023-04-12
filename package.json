@@ -1,0 +1,39 @@
+{
+    "name": "@dmcass/staples",
+    "version": "0.0.1",
+    "description": "Configurations and style guides for consistent development practices.",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dmcass/staples.git"
+    },
+    "keywords": [
+        "config",
+        "configs",
+        "configuration",
+        "ecmascript",
+        "eslint",
+        "eslint config",
+        "javascript",
+        "lint",
+        "react",
+        "staples",
+        "style guide"
+    ],
+    "author": "Dustin Cass <hello@dmcass.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dmcass/staples/issues"
+    },
+    "homepage": "https://github.com/dmcass/staples#readme",
+    "devDependencies": {
+        "eslint": "^8.38.0",
+        "eslint-config-prettier": "^8.8.0",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.1",
+        "prettier": "^2.8.7"
+    }
+}
