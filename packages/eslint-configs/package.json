@@ -1,0 +1,50 @@
+{
+    "name": "eslint-config-staples",
+    "version": "0.0.1",
+    "description": "Staple configurations for ESLint",
+    "main": "index.js",
+    "exports": {
+        ".": "./index.js",
+        "./base": "./configs/base/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dmcass/staples.git"
+    },
+    "keywords": [
+        "config",
+        "configs",
+        "configuration",
+        "ecmascript",
+        "eslint",
+        "eslint config",
+        "javascript",
+        "lint",
+        "react",
+        "staples",
+        "style guide"
+    ],
+    "author": "Dustin Cass <hello@dmcass.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dmcass/staples/issues"
+    },
+    "homepage": "https://github.com/dmcass/staples/packages/eslint-configs",
+    "dependencies": {
+        "@rnx-kit/eslint-plugin": "^0.4.1",
+        "@typescript-eslint/eslint-plugin": "^5.58.0",
+        "@typescript-eslint/parser": "^5.58.0",
+        "confusing-browser-globals": "^1.0.11",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-unicorn": "^46.0.0"
+    },
+    "peerDependencies": {
+        "eslint": "^8.38.0"
+    }
+}

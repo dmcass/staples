@@ -1,0 +1,3 @@
+{
+    "extends": ["staples/base", "prettier"]
+}

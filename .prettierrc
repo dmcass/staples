@@ -2,7 +2,6 @@
     "arrowParens": "always",
     "bracketSameLine": false,
     "bracketSpacing": true,
-    "editorconfig": true,
     "embeddedLanguageFormatting": "auto",
     "endOfLine": "lf",
     "htmlWhitespaceSensitivity": "css",
@@ -20,6 +19,15 @@
     "useTabs": false,
     "vueIndentScriptAndStyle": false,
     "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "parser": "json5",
+                "singleQuote": false,
+                "quoteProps": "preserve",
+                "trailingComma": "none"
+            }
+        },
         {
             "files": ".{prettierrc,lintstagedrc,huskyrc}",
             "options": {
