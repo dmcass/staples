@@ -53,7 +53,7 @@ module.exports = {
         'lines-around-comment': [
             'error',
             {
-                // afterHashbangComment: true, // ESLint v8.35
+                afterHashbangComment: true,
             },
         ],
         'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],

@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        'array-callback-return': ['error', { checkForEach: true }],
+        'array-callback-return': ['error', { allowImplicit: true, checkForEach: true }],
         'constructor-super': 'error',
         'for-direction': 'error',
         'getter-return': ['error', { allowImplicit: false }],
@@ -33,11 +33,10 @@ module.exports = {
         'no-irregular-whitespace': 'error',
         'no-loss-of-precision': 'error',
         'no-misleading-character-class': 'error',
-        // 'no-new-native-nonconstructor': 'error', // ESLint v8.27.0
+        'no-new-native-nonconstructor': 'error',
         'no-new-symbol': 'error',
         'no-obj-calls': 'error',
         'no-promise-executor-return': 'error',
-        // Unnecessarily strict
         'no-prototype-builtins': 'off',
         'no-self-assign': 'error',
         'no-self-compare': 'error',

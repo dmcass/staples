@@ -57,7 +57,7 @@ module.exports = {
         'no-else-return': ['error', { allowElseIf: false }],
         'no-empty': 'error',
         'no-empty-function': 'error',
-        // 'no-empty-static-block': 'error', // ESLint v8.27.0
+        'no-empty-static-block': 'error',
         'no-eq-null': 'off',
         'no-eval': 'error',
         'no-extend-native': 'error',
@@ -82,8 +82,6 @@ module.exports = {
         'no-mixed-operators': [
             'error',
             {
-                // the list of arithmetic groups disallows mixing `%` and `**`
-                // with other arithmetic operators.
                 groups: [
                     ['%', '**'],
                     ['%', '+'],
@@ -114,8 +112,7 @@ module.exports = {
             {
                 props: true,
                 ignorePropertyModificationsFor: [
-                    // for reduce accumulators
-                    'acc',
+                    // for reduce accumulator
                     'accumulator',
                 ],
             },
@@ -127,10 +124,6 @@ module.exports = {
         'no-restricted-exports': [
             'error',
             {
-                restrictedNamedExports: [
-                    // this will cause tons of confusion when your module is dynamically `import()`ed, and will break in most node ESM versions
-                    'then',
-                ],
                 restrictDefaultExports: {
                     direct: true,
                     named: true,
@@ -140,17 +133,7 @@ module.exports = {
                 },
             },
         ],
-        'no-restricted-globals': [
-            'error',
-            {
-                name: 'isFinite',
-                message: 'Use Number.isFinite instead https://github.com/airbnb/javascript#standard-library--isfinite',
-            },
-            {
-                name: 'isNaN',
-                message: 'Use Number.isNaN instead https://github.com/airbnb/javascript#standard-library--isnan',
-            },
-        ].concat(confusingBrowserGlobals),
+        'no-restricted-globals': ['error'].concat(confusingBrowserGlobals),
         'no-restricted-imports': [
             'off',
             {
@@ -164,36 +147,6 @@ module.exports = {
                 object: 'arguments',
                 property: 'callee',
                 message: 'arguments.callee is deprecated',
-            },
-            {
-                object: 'global',
-                property: 'isFinite',
-                message: 'Please use Number.isFinite instead',
-            },
-            {
-                object: 'self',
-                property: 'isFinite',
-                message: 'Please use Number.isFinite instead',
-            },
-            {
-                object: 'window',
-                property: 'isFinite',
-                message: 'Please use Number.isFinite instead',
-            },
-            {
-                object: 'global',
-                property: 'isNaN',
-                message: 'Please use Number.isNaN instead',
-            },
-            {
-                object: 'self',
-                property: 'isNaN',
-                message: 'Please use Number.isNaN instead',
-            },
-            {
-                object: 'window',
-                property: 'isNaN',
-                message: 'Please use Number.isNaN instead',
             },
             {
                 property: '__defineGetter__',
@@ -364,13 +317,11 @@ module.exports = {
             'always',
             {
                 line: {
-                    exceptions: ['-', '+'],
-                    markers: ['=', '!', '/'], // space here to support sprockets directives, slash for TS /// comments
+                    markers: ['!', '/'],
                 },
                 block: {
-                    exceptions: ['-', '+'],
-                    markers: ['=', '!', ':', '::'], // space here to support sprockets directives and flow comment types
                     balanced: true,
+                    markers: ['!'],
                 },
             },
         ],
