@@ -260,4 +260,9 @@ module.exports = {
         'react/style-prop-object': 'error',
         'react/void-dom-elements-no-children': 'error',
     },
+    settings: {
+        react: {
+            version: 'detect',
+        },
+    },
 };
