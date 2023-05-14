@@ -44,7 +44,8 @@ module.exports = {
         'unicorn/no-unnecessary-await': 'error',
         'unicorn/no-unreadable-array-destructuring': 'error',
         'unicorn/no-unreadable-iife': 'error',
-        'unicorn/no-unsafe-regex': 'error',
+        // https://github.com/sindresorhus/eslint-plugin-unicorn/issues/153
+        'unicorn/no-unsafe-regex': 'off',
         'unicorn/no-unused-properties': 'off',
         'unicorn/no-useless-fallback-in-spread': 'error',
         'unicorn/no-useless-length-check': 'error',

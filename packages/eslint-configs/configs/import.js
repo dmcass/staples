@@ -1,6 +1,8 @@
 module.exports = {
     plugins: ['import'],
     rules: {
+        'no-duplicate-imports': 'off',
+
         'import/exports-last': 'error',
         'import/namespace': 'error',
         'import/no-deprecated': 'error',
