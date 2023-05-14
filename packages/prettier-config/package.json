@@ -1,0 +1,28 @@
+{
+    "name": "prettier-config-staples",
+    "version": "1.0.0",
+    "description": "Staple configurations for prettier",
+    "main": "index.json",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dmcass/staples.git"
+    },
+    "keywords": [
+        "config",
+        "configs",
+        "configuration",
+        "ecmascript",
+        "javascript",
+        "json",
+        "markdown",
+        "prettier",
+        "react",
+        "staples"
+    ],
+    "author": "Dustin Cass <hello@dmcass.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dmcass/staples/issues"
+    },
+    "homepage": "https://github.com/dmcass/staples#readme"
+}
