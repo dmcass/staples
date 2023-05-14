@@ -32,7 +32,7 @@
     "devDependencies": {
         "eslint": "^8.38.0",
         "eslint-config-prettier": "^8.8.0",
-        "eslint-config-staples": "file:packages/eslint-configs",
+        "eslint-config-staples": "file:packages/eslint-config",
         "husky": "^8.0.3",
         "lint-staged": "^13.2.1",
         "prettier": "^2.8.7"
