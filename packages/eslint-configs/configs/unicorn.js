@@ -1,7 +1,8 @@
 module.exports = {
     plugins: ['unicorn'],
     rules: {
-        'unicorn/better-regex': 'error',
+        // Disabled in favor of eslint-plugin-regexp
+        'unicorn/better-regex': 'off',
         'unicorn/catch-error-name': 'error',
         'unicorn/consistent-destructuring': 'error',
         'unicorn/consistent-function-scoping': 'error',
