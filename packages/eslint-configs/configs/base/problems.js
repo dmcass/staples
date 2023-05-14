@@ -44,7 +44,7 @@ module.exports = {
         'no-template-curly-in-string': 'error',
         'no-this-before-super': 'error',
         'no-undef': 'error',
-        'no-unexpected-multiline': 'error',
+        'no-unexpected-multiline': 'off',
         'no-unmodified-loop-condition': 'off',
         'no-unreachable': 'error',
         'no-unreachable-loop': 'error',

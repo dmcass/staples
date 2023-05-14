@@ -242,7 +242,7 @@ module.exports = {
         'no-empty-function': 'off',
         '@typescript-eslint/no-empty-function': 'error',
         'no-extra-semi': 'off',
-        '@typescript-eslint/no-extra-semi': 'error',
+        '@typescript-eslint/no-extra-semi': 'off',
         'no-implied-eval': 'off',
         '@typescript-eslint/no-implied-eval': 'error',
         'no-invalid-this': 'off',
