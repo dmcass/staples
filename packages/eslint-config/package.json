@@ -5,7 +5,23 @@
     "main": "index.js",
     "exports": {
         ".": "./index.js",
-        "./base": "./configs/base/index.js"
+        "./configs/base": "./configs/base/index.js",
+        "./configs/eslint-comments": "./configs/eslint-comments.js",
+        "./configs/import": "./configs/import.js",
+        "./configs/jest": "./configs/jest.js",
+        "./configs/jsx-a11y": "./configs/jsx-a11y.js",
+        "./configs/node": "./configs/node.js",
+        "./configs/promise": "./configs/promise.js",
+        "./configs/react-hooks": "./configs/react-hooks.js",
+        "./configs/react-native": "./configs/react-native.js",
+        "./configs/react": "./configs/react.js",
+        "./configs/regexp": "./configs/regexp.js",
+        "./configs/rnx-kit": "./configs/rnx-kit.js",
+        "./configs/testing-library": "./configs/testing-library.js",
+        "./configs/typescript": "./configs/typescript.js",
+        "./configs/unicorn": "./configs/unicorn.js",
+        "./configs/vitest": "./configs/vitest.js",
+        "./node": "./presets/node.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -51,10 +67,14 @@
         "eslint-plugin-react-native": "^4.0.0",
         "eslint-plugin-regexp": "^1.15.0",
         "eslint-plugin-testing-library": "^5.11.0",
-        "eslint-plugin-unicorn": "^46.0.0",
+        "eslint-plugin-unicorn": "^47.0.0",
         "eslint-plugin-vitest": "^0.2.2"
     },
     "peerDependencies": {
         "eslint": "^8.38.0"
-    }
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "devDependencies": {}
 }

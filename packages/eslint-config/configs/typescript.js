@@ -1,9 +1,10 @@
 const importPlugin = require('eslint-plugin-import');
+
 const { settings: importSettings } = importPlugin.configs.typescript;
 
 module.exports = {
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint', 'import'],
     rules: {
         '@typescript-eslint/adjacent-overload-signatures': 'error',
         '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
@@ -281,6 +282,8 @@ module.exports = {
         '@typescript-eslint/require-await': 'off',
         'no-return-await': 'off',
         '@typescript-eslint/return-await': 'error',
+
+        'import/named': 'off',
     },
     settings: {
         ...importSettings,

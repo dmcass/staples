@@ -117,7 +117,7 @@ module.exports = {
                 },
             },
         ],
-        'no-restricted-globals': ['error'].concat(confusingBrowserGlobals),
+        'no-restricted-globals': ['error', ...confusingBrowserGlobals],
         'no-restricted-imports': [
             'off',
             {

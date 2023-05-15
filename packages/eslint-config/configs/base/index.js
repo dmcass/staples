@@ -3,7 +3,7 @@ module.exports = {
         es2022: true,
         node: true,
     },
-    extends: ['./problems', './suggestions', './formatting'].map(require.resolve),
+    extends: ['./problems', './suggestions', './formatting'].map((path) => require.resolve(path)),
     parserOptions: {
         ecmaFeatures: {
             globalReturn: false,
@@ -11,6 +11,7 @@ module.exports = {
             jsx: true,
         },
         sourceType: 'module',
+        ecmaVersion: 2022,
     },
     rules: {},
 };

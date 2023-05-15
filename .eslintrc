@@ -1,3 +1,7 @@
 {
-    "extends": ["staples/base", "prettier"]
+    "extends": ["staples/node"],
+    "plugins": ["unicorn"],
+    "rules": {
+        "unicorn/prefer-module": "off"
+    }
 }
