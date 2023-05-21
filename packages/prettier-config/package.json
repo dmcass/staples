@@ -24,5 +24,8 @@
     "bugs": {
         "url": "https://github.com/dmcass/staples/issues"
     },
-    "homepage": "https://github.com/dmcass/staples#readme"
+    "homepage": "https://github.com/dmcass/staples#readme",
+    "peerDependencies": {
+        "prettier": "^2.8.7"
+    }
 }
