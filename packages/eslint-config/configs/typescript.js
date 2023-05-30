@@ -283,7 +283,11 @@ module.exports = {
         'no-return-await': 'off',
         '@typescript-eslint/return-await': 'error',
 
+        // TypeScript handles ensuring that named exports exist in the module.
         'import/named': 'off',
+        // TypeScript handles any undefined values during compilation
+        // https://typescript-eslint.io/linting/troubleshooting/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
+        'no-undef': 'off',
     },
     settings: {
         ...importSettings,

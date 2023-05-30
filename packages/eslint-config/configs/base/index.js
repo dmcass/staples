@@ -1,7 +1,6 @@
 module.exports = {
     env: {
         es2022: true,
-        node: true,
     },
     extends: ['./problems', './suggestions', './formatting'].map((path) => require.resolve(path)),
     parserOptions: {

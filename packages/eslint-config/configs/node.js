@@ -1,4 +1,7 @@
 module.exports = {
+    env: {
+        node: true,
+    },
     plugins: ['n'],
     rules: {
         // Best Practices

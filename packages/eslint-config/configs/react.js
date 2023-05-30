@@ -1,4 +1,7 @@
 module.exports = {
+    env: {
+        browser: true,
+    },
     plugins: ['react'],
     rules: {
         'class-methods-use-this': [

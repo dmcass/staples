@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-staples",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Staple configurations for ESLint",
     "main": "index.js",
     "exports": {
@@ -11,6 +11,7 @@
         "./configs/jest": "./configs/jest.js",
         "./configs/jsx-a11y": "./configs/jsx-a11y.js",
         "./configs/node": "./configs/node.js",
+        "./configs/electron": "./configs/electron.js",
         "./configs/promise": "./configs/promise.js",
         "./configs/react-hooks": "./configs/react-hooks.js",
         "./configs/react-native": "./configs/react-native.js",
@@ -23,8 +24,9 @@
         "./configs/vitest": "./configs/vitest.js",
         "./configs/overrides/tests": "./configs/overrides/tests.js",
         "./configs/overrides/typescript-tests": "./configs/overrides/typescript-tests.js",
+        "./electron": "./presets/electron.js",
         "./node": "./presets/node.js",
-        "./react-native": "./presets/react-native"
+        "./react-native": "./presets/react-native.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

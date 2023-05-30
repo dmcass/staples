@@ -1,4 +1,7 @@
 module.exports = {
+    env: {
+        'vitest/env': true,
+    },
     plugins: ['vitest'],
     rules: {
         'vitest/consistent-test-filename': 'error',

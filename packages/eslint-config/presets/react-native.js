@@ -1,13 +1,4 @@
 module.exports = {
-    env: {
-        'react-native/react-native': 'true',
-    },
-    parserOptions: {
-        ecmaFeatures: {
-            jsx: true,
-        },
-    },
-    plugins: ['react-native'],
     overrides: [
         {
             extends: [
