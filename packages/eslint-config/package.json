@@ -21,7 +21,10 @@
         "./configs/typescript": "./configs/typescript.js",
         "./configs/unicorn": "./configs/unicorn.js",
         "./configs/vitest": "./configs/vitest.js",
-        "./node": "./presets/node.js"
+        "./configs/overrides/tests": "./configs/overrides/tests.js",
+        "./configs/overrides/typescript-tests": "./configs/overrides/typescript-tests.js",
+        "./node": "./presets/node.js",
+        "./react-native": "./presets/react-native"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
