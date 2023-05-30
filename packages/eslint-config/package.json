@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-staples",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Staple configurations for ESLint",
     "main": "index.js",
     "exports": {
