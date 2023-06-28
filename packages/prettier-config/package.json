@@ -1,6 +1,6 @@
 {
     "name": "prettier-config-staples",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Staple configurations for prettier",
     "main": "index.json",
     "repository": {
@@ -19,7 +19,7 @@
         "react",
         "staples"
     ],
-    "author": "Dustin Cass <hello@dmcass.com>",
+    "author": "Dustin Cass <github@dmcass.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/dmcass/staples/issues"

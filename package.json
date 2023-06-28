@@ -1,6 +1,6 @@
 {
     "name": "@dmcass/staples",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Configurations and style guides for consistent development practices.",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,7 +23,7 @@
         "staples",
         "style guide"
     ],
-    "author": "Dustin Cass <hello@dmcass.com>",
+    "author": "Dustin Cass <github@dmcass.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/dmcass/staples/issues"
