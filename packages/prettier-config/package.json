@@ -26,6 +26,6 @@
     },
     "homepage": "https://github.com/dmcass/staples#readme",
     "peerDependencies": {
-        "prettier": "^2.8.7"
+        "prettier": "^3.0.0"
     }
 }
