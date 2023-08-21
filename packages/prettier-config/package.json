@@ -1,6 +1,6 @@
 {
     "name": "prettier-config-staples",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Staple configurations for prettier",
     "main": "index.json",
     "repository": {
@@ -26,6 +26,6 @@
     },
     "homepage": "https://github.com/dmcass/staples#readme",
     "peerDependencies": {
-        "prettier": "^3.0.0"
+        "prettier": "^3.0.2"
     }
 }
