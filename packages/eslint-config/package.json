@@ -55,7 +55,7 @@
     },
     "homepage": "https://github.com/dmcass/staples/packages/eslint-configs",
     "dependencies": {
-        "@rnx-kit/eslint-plugin": "^0.4.1",
+        "@rnx-kit/eslint-plugin": "^0.6.0",
         "@rushstack/eslint-patch": "^1.3.3",
         "@typescript-eslint/eslint-plugin": "^6.4.1",
         "@typescript-eslint/parser": "^6.4.1",
